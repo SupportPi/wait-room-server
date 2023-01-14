@@ -139,7 +139,7 @@ async function routing() {
                 live: channel.upcomingBroadcasts[value].live
             }
         }
-
+        res.header('Access-Control-Allow-Origin', '*');
         res.json(response);
     });
  });
