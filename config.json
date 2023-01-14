@@ -1,0 +1,36 @@
+{
+    "channels": {
+        "sena": {
+            "id": "UC17uF2RZTeXs9crdtFsHWiA"
+        },
+        "minna": {
+            "id": "UCHTgxk7Ye_SjbdEWqjQ6Zag"
+        },
+        "brolime": {
+            "id": "UCrvbKEjNy7vxEwcWnhWuoAg"
+        },
+        "kinolime": {
+            "id": "UCycrd3GhaXy19W7SnvYz5yA"
+        },
+        "rika": {
+            "id": "UCw1cUr-r_-g-oda-ZXSTahQ"
+        },
+        "abigill": {
+            "id": "UCp4wVSaYyFhLlbbBI7j4SRQ"
+        },
+        "nyana": {
+            "id": "UC6JfDgBYHkm2msYAPEq8kjw"
+        },
+        "juwun": {
+            "id": "UCrcgQsi5BaBP_GdHJkFteyQ"
+        },
+        "marie": {
+            "id": "UC-tPl014HDiw-lRi5iHKJdg"
+        } 
+     },
+     
+     "query": {
+        "maxResults": 50
+     }
+
+}
