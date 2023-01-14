@@ -111,7 +111,9 @@ async function listen(){
 
 // Must be run after loadChannels Function
 async function routing() {
- //server.use(helmet());
+ server.use(helmet({
+    crossOriginResourcePolicy: false,
+ }));
  server.get('/', async function(req, res){
     res.send("Access through /sena, /brolime, ect");
  });
