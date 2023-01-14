@@ -1,17 +1,3 @@
-/**
- * 
- * Rather than
- * 
- * https://www.googleapis.com/youtube/v3
- * /channels
- */
-// Config Comes from Config.JSON
-
-// Gets Uploads Ids
-//https://www.googleapis.com/youtube/v3/channels?id={channel Id}&key={API key}&part=contentDetails
-
-// Queries for Videos via
-//https://www.googleapis.com/youtube/v3/playlistItems?playlistId={"uploads" Id}&key={API key}&part=snippet&maxResults=50
 import fs from "node:fs";
 import env from 'node:process';
 import fetch from "node-fetch";
