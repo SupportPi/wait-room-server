@@ -113,6 +113,7 @@ async function listen(){
 async function routing() {
  server.use(helmet({
     crossOriginResourcePolicy: false,
+    crossOriginEmbedderPolicy: false,
  }));
  server.get('/', async function(req, res){
     res.send("Access through /sena, /brolime, ect");
